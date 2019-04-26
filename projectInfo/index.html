@@ -1,0 +1,207 @@
+<!--===ESC-114-16
+=======HOPE MADZIAKAPITA
+=======HTML5 CSS3 JS Bootstrap3 -->
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+
+    <body>
+
+        <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <a class="navbar-brand" href="#"><strong>Troll</strong>Photography</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#carousel-header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#appointment">Appointment</a></li>
+                        <li><a href="#social">Social</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="carousel-header" class="carousel slide" data-ride="carousel" data-interval="8000">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="img/slide1.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="img/slide2.jpg" alt="">
+                </div>
+            </div>
+
+            
+            <a class="left carousel-control" href="#carousel-header" role="button" data-slide="next">
+                <img src="img/left.png" alt="Previous">
+            </a>
+            <a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
+                <img src="img/right.png" alt="Next">
+            </a>
+        </div>
+
+        
+
+        <div id="about" class="content-block content-block-cyan">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h1>Troll Photography</h1>
+                        <p> Tired of low quality pictures?bad and agressive producers?forver weeks to get your edited photo?Come shoot with Troll Photography, not only do we focus on capturing high quality pictures but we also manage time considering 
+                            that we all students. we also have proffesional editors to make your picture look even sharper. Customers are allowed to book appointments with troll Photography to get their
+                            stuff done without interruption from other customers. Come Sh00t with us to capture your best moments and trend on social media!.     
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <div id="gallery" class="content-block content-block-gray">
+            <div class="container">
+                <header class="block-heading cleafix">
+                    <button class="btn btn-o btn-lg pull-right" onclick="mypop()">View All</button>
+                    <h1>gallery</h1>
+                    <p>some of the most outstanding photos shot by the Troll.</p>
+                </header>
+                <section class="block-body">
+                    <div class="row">
+                        <div class="col-sm-4 blog-post">
+                            <img src="img/t2-1.jpg" >
+                            <a href="#"><h2>Le Gal</h2></a>
+                            <div class="date">3 Nov, 2018</div>
+                        </div>
+                        <div class="col-sm-4 blog-post">
+                            <img src="img/t7.jpg">
+                            <a href="#"><h2>Glimmer n Gloss</h2></a>
+                            <div class="date">8 Jan, 2019</div>
+                        </div>
+                        <div class="col-sm-4 blog-post">
+                            <img src="img/t1.jpg" >
+                            <a href="#"><h2>Fierce</h2></a>
+                            <div class="date">3 Dec, 2018</div>
+                        </div>
+
+                        <div class="col-sm-4 blog-post">
+                                <img src="img/t4.jpg" >
+                                <a href="#"><h2>Throw Back 90s?</h2></a>
+                                <div class="date">5 Nov, 2018</div>
+                            </div>
+                            <div class="col-sm-4 blog-post">
+                                <img src="img/t5.jpg" >
+                                <a href="#"><h2>Free Spirit</h2></a>
+                                <div class="date">20 May, 2019</div>
+                            </div>
+                            <div class="col-sm-4 blog-post">
+                                <img src="img/t6.jpg" >
+                                <a href="#"><h2>Glimmer n Gloss</h2></a>
+                                <div class="date">2 Feb, 2018</div>
+                            </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div id="appointment" class="content-block content-block-dark">
+                <div class="container">
+                    <section class="block-body">
+                            <header class="block-heading cleafix">
+                                    <h1>Book an Appointment with us</h1>
+                                    <p></p>
+                                </header>
+                <form role="form" onsubmit="something()">
+                        <div class="form-group">
+                           <label for="name">Name</label>
+                           <input type="text" class="form-control" id="name" 
+                            placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                                <label for="name">Email</label>
+                                <input type="email" class="form-control" id="mail" 
+                                placeholder="user@example.com">
+                        </div>
+                        <div class="form-group">
+                                <label for="name">location</label>
+                                <input type="text" class="form-control" id="location" 
+                                placeholder="Enter Your location e.g Chikanda">
+                         </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                        <p style="color:brown">once you submit the appointment application form we'll immadietely evalaute it and give you feedback through the email address</p>
+                     </form>
+
+                </section>
+                
+            </div>
+        </div>
+        <div id="social" class="content-block">
+            <div class="container text-center">
+                    <p>Become a model at our social media page</p>
+                    <div class="circle"><a href="facebook/the.elvillain"><img src="img/ico1.ico" width="50"></a></div>
+                    <div class="circle"><a href=""><img src="img/ico2.ico" width="50"></a></div>
+                    <div class="circle"><a href="#"><img src="img/icon4.ico" width="50"></a></div>
+                    <div class="circle"><a href="#"><img src="img/icon5.ico" width="50"></a></div>
+                    <div class="circle"><a href="#"><img src="img/ico3.ico" width="50"></a></div>
+                    <div class="circle"><a href="#"><img src="img/icon6.ico" width="50"></a></div>
+            </div>
+        </div>
+
+
+        <footer class="content-block content-block-dark">
+            <p>&copy; Copyright <a href="#carousel-header" > TrollPhotography</a></p>
+        </footer>    
+       
+
+    </body>
+    <script type="text/javascript">
+		const inpKey=document.getElementById("name");
+		const inpValue = document.getElementById("mail");
+		const dat =document.getElementById("location");
+		function something(){
+			event.preventDefault;
+            const key=inpKey.value;
+            const email = inpValue.value;
+            const location = dat.value;
+			siteData = {
+				email: email,
+				location: location
+			},
+
+			localStorage.setItem(key,JSON.stringify(siteData));
+
+
+
+        };
+
+        function mypop()
+            {
+              mywindow = window.open("page1.html", "mywindow", "location=1,  width=700,height=700");
+                mywindow.moveTo(0, 0);
+            }
+
+    </script>
+</html>
